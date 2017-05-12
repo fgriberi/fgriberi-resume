@@ -1,0 +1,89 @@
+#root {
+  background-color: #F2F2F2;
+}
+
+aside, main {
+  padding: 10px!important;
+}
+@media (min-width: 992px) {
+  main {
+    padding-left: 0!important;
+  }
+}
+aside .inner, main .inner {
+  border-style: solid;
+  border-color: #FAFAFA;
+  border-width: 3px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 6px;
+}
+h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+section h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #A4A4A4;
+}
+section h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+a {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.divider {
+  padding: 10px 20px 0 20px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+}
+.fa {
+  color: #777;
+  margin-right: 5px;
+  top: 4px;
+}
+
+.contact-links li {
+  margin-bottom: 15px;
+}
+.profileLinks li a {
+  text-decoration: none;
+  color: #000;
+}
+.profileLinks li a:hover {
+  color: #23527c;
+}
+.profileLabel {
+  color: #848484;
+}
+.about, .work, .education, .skills {
+  margin-bottom: 30px;
+}
+.skills-list li {
+  font-size: 16px;
+}
+.workDates {
+  color: #A4A4A4;
+  margin-top: -6px;
+}

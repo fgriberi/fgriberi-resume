@@ -1,0 +1,315 @@
+{
+  "basics": {
+    "name": "Franco G. Riberi",
+    "label": "Full Stack Developer",
+    "picture": "./profile_image.jpg",
+    "email": "fgriberi@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests, and an organization that lues its employees. I’m a hands-on, highly competent software engineer with more than five years of experience in designing, programming and testing software. I have experience with software development life cycle complemented by a proven ability to quickly assimilate and rapidly utilize new technologies. Over the past years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been C++ and python but I have also worked as a full stack developer as a freelancer. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript. As a professional, I’m always looking for the highest quality in the products that I’m involved. I consider myself avery proactive and dynamic person that enjoys teamwork and challenges.",
+    "location": {
+      "address": "Pueyrredon 391",
+      "postalCode": "X5804BYA",
+      "city": "Cordoba",
+      "countryCode": "Arg",
+      "region": "Cordoba"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "fgriberi",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "fgriberi",
+        "url": ""
+      },
+      {
+        "network": "FreeCodeCamp",
+        "username": "fgriberi",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ascentio Technologies SA",
+      "position": "Python and C++ developer",
+      "website": "https://www.ascentio.com.ar",
+      "startDate": "2015-04-13",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        {
+          "title": "Detection of Maritime Anomalies",
+          "description": "I’m responsible for the analysis, design, development and testing of the project. I have started with the requirement analysis and prototyping in python. Next steps include the development in C++. Activities include: architecture and design of all the system, project planning, analysis application, development and technical coordination of the team. Technologies: waf, python, numpy, scipy, h5py, gdal, pytest, mock, pep8, pylint, C++, C++11, opencv, gtest, valgrind, lcov, gdb, cppcheck.",
+          "link": ""
+        },
+        {
+          "title": "Internal Build System",
+          "description": "I was responsible for developing a build system as a proof of concept. The main idea was to develop an integrated build system to automate some processes related to daily work with C++ and python projects and units. Technologies: python, virtualenv, waf, waftools.",
+          "link": ""
+        },
+        {
+          "title": "Ground Segment of SAOCOM (SAR Observation & Communications Satellite) satellite mission",
+          "description": "I was working as C++ and Python developer for CONAE, The Argentinean Aerospacial Agency. My job was the designing and development of software components in diverse space related units. Most of the work was performed in a Linux enviroment using C++ and Python. Technologies: C++, C++0x, Boost, gdb, linux, cmake, gtest, django, python, jenkins, jira Units handled: VexDemux, Merger, Antenna Angle Translator and Zodiac Simulator, Satellite TC & TM Simulator, Pass Plan Processor and ExtensionViewer.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "company": "Vates",
+      "position": "C++ Software Developer",
+      "website": "",
+      "startDate": "2014-10-01",
+      "endDate": "2015-04-10",
+      "summary": "I have worked for Arris as a member of WHS Core Team. I was responsible for maintaining and developing new features on a legacy system written in C++, mainly on the internationalization module. Technologies: C++, gdb, window, linux, remote environments, media player, gateway, icu4, sqlite3, make, gtest.",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "position": "Freelance Software Developer",
+      "website": "",
+      "startDate": "2014-11-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        {
+          "title": "ULearn",
+          "description": "I worked hourly in this startup as a developer. Ulearn is a platform to take courses online. Technologies: MEAN.io stack, javascript, git, bitbucket and bugheard. Reference: facundomartinmunoz@gmail.com.",
+          "link": "http://www.ulearn.pe"
+        },
+        {
+          "title": "Sivasdescalzo",
+          "description": "I worked in this project for Koodu Software as a developer. I integrated this application with MRW platform using web services. Technologies: java, openbravo ERP, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
+          "link": "http://www.sivasdescalzo.es/"
+        },
+        {
+          "title": "Retails POS",
+          "description": "I worked in this project for Koodu Software as a developer. I fixed some issues and bugs. Technologies: java, javascript, openbravo, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
+          "link": ""
+        },
+        {
+          "title": "MSS-Report",
+          "description": "I participated in the development of this private project not only as a developer but also as TL and SM. MSS-Report is a web platform that manages and synchronizes the information of specific accounts of Amazon and Channel Advisor using their respective APIs. Technologies: MySQL, JS, HTML5, CSS3, Bootstrap, Spring, Maven, JEE, Amazon, Amazon Marketplace Web Service, ChannelAdvisor, JUnit, Scrum, Jmeter, SOAP, Bitbucket.",
+          "link": "http://mss-reports.com:8080"
+        },
+        {
+          "title": "SDCA",
+          "description": "I developed the first part of this project. SDCA is a web system that allows the management of a large flow of information relating to the contingency of boats. It uses web services to communicate with other systems and integrates with SAP. Technologies: JEE, spring, SOAP, SAP PI, JS, Boostrap, HTML5, CSS3, JUnit, SQL Server, Jira, Bitbucket, scrum",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "company": "Taller  Technologies",
+      "position": "C++ Software Engineer",
+      "website": "",
+      "startDate": "2013-06-01",
+      "endDate": "2014-05-30",
+      "summary": "Object Oriented design and development, mainly in C++ using Agile methodologies. Member of Taller Technologies’ Special Projects Division.",
+      "highlights": [
+        {
+          "title": "Namecheck",
+          "description": "tool for static checking of symbol names using configurable rules for C and C++ code implemented as a GCC plugin. Accomplishments: design, implementation and testing of the plugin, responsible for the internationalization and configurations rules, deep knowledge on GCC internals. Technologies: c++03, c++11, GCC, GDB, GNU Gettext library, valgrind, astyle, gtest, gmock, Hg.",
+          "link": "https://bitbucket.org/tt_spd/namecheck"
+        },
+        {
+          "title": "tmock",
+          "description": "System for mocking C code. It allows the development of test cases for functions using instrumentation on the GCC AST (GENERIC-GIMPLE). Accomplishments: exploring and analyze the source code of gcc, proof of concept on GENERIC and GIMPLE levels and knowledge on AST tree and internal structures of gcc (Handling and clone AST nodes). Technologies: gdb, valgrind, astyle, gtest, bash script, gcc (compiler and source for debbug)",
+          "link": ""
+        },
+        {
+          "title": "GNC",
+          "description": "embedded system of control, navigation and guidance of unmanned aircraft, part of the SARA project (Robotic Air System Argentino). Accomplishments: Knowledge on embedded systems, Research, analysis and bug fixing Research the Lab Jack hardware and protocol, Design, implementation and testing of the LabJack driver, Extending the golem compiler parser. Functional tests and debug on specific hardware. Technologies: C++, X-Plane, MavLink, TMS570, LPC1768, MATLAB simulink, UNIX, adamgree, code composer, CAN Aerospace, Pivotal, ReviewBoard, gtest, gmock, astyle, QGroundControl, Jenkins.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "company": "FuDePAN",
+      "position": "Collaborator (Ad-Honorem position)",
+      "website": "",
+      "startDate": "2012-02-01",
+      "endDate": "2015-12-01",
+      "summary": "I started writing a thesis as a researcher student in Bioengineering. Once I have finished it, I continued in collaboration with this Non-Profit Organization. Accomplishments: writing a thesis on Bioengineering (availble in Spanish), publishing two papers in a national conference on Bioengineering, participation in different FuDePAN projects, always using C++ as main programming language and the GNU toolchain. ",
+      "highlights": [
+        {
+          "title": "remo",
+          "description": "RNAemo - RNA research project",
+          "link": "https://bitbucket.org/fudepan/r-emo"
+        },
+        {
+          "title": "fideo",
+          "description": "Folding Interface Dynamic Exchange Operations",
+          "link": "https://bitbucket.org/fudepan/fideo"
+        },
+        {
+          "title": "acuoso",
+          "description": "Abstract Codon Usage Optimization Software for Organisms ",
+          "link": "https://bitbucket.org/fudepan/acuoso"
+        },
+        {
+          "title": "etilico",
+          "description": "External Tools Invocation LIbrary and COmponents",
+          "link": "https://code.google.com/p/etilico/"
+        },
+        {
+          "title": "titere",
+          "description": "Target Ideal TEmperature Rna Expression",
+          "link": "https://bitbucket.org/fudepan/titere"
+        }
+      ]
+    },
+    {
+      "company": "Universidad Nacional de Río Cuarto",
+      "position": "Teaching Assistant (non tenured)",
+      "website": "",
+      "startDate": "2010-03-01",
+      "endDate": "2013-05-01",
+      "summary": "Assistant in courses on introductory programming topics and more advanced topics. Participation in the organization of several summer courses on graduate computer science topics.",
+      "highlights": []
+    },
+    {
+      "company": "diTec",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2012-07-01",
+      "endDate": "2012-11-01",
+      "summary": "I worked for four months on maintenance and development of administrative systems, upgrade and database management. Technologies: delphi, SQLServer, Windows.",
+      "highlights": []
+    },
+    {
+      "company": "Freelance",
+      "position": "Administrative Software Development",
+      "website": "",
+      "startDate": "2011-05-01",
+      "endDate": "2011-08-31",
+      "summary": "I designed and completely developed a software based system for keeping track of stock, supplies and printing receipts for a small local company called Comunicaciones Móviles, Agente Oficial de Personal. San Martín y Esq. Constitución. Tel: (0358)-(154015409). Río Cuarto, Córdoba.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad Nacional de Rio Cuarto",
+      "area": "Computer Science (5 yr + thesis)",
+      "studyType": "Bachelor in",
+      "startDate": "2009-02-01",
+      "endDate": "2013-03-18",
+      "gpa": "83.9",
+      "thesis": "Study of the Relationship between divergence of using synonymous codons in host-virus and the presence of microRNA",
+      "supervisors" : "Daniel Gutson and Laura Tardivo",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "institution" : "UNRC - ANCyT",
+      "title": "Promote technical careers and award to best academic qualifications",
+      "period": "2012-2013"
+    },
+    {
+      "institution" : "Intel",
+      "title": "Intel Scholarship for Academic Excellence",
+      "period": "2010-2012"
+    },
+    {
+      "institution" : "500x500",
+      "title": "Ministry of Industry, Trade and Labor (Córdoba)",
+      "period": "2009-2012"
+    },
+    {
+      "institution" : "40 JAIIO",
+      "title": "EST 2011 Symposium, Second Place, Category: Final Project .",
+      "period": ""
+    },
+    {
+      "institution" : "Scholarship",
+      "title": "Accommodation in the University Residences. Municipality of Carnerillo.",
+      "period": "2009-2012"
+    }
+  ],
+  "publications": [
+    {
+      "date": "2012",
+      "title": "Study of the relationship between difference in codon usage compared to the virus and recognition by host microRNA",
+      "authors": "Franco Riberi, Lucia Fazzi, Laura Tardivo, Daniel Gutson, Daniel Rabinovich.",
+      "place": "SAV2012 (XXXII Annual Scientific Meeting of the Argentina Society of Virology). Valle Hermoso, Córdoba, Argentina."
+    },
+    {
+      "date": "2012",
+      "title": "Relationship between divergence of using synonymous codons in host-virus and the presence of microRNA",
+      "authors": "Franco Riberi, Laura Tardivo, Lucia Fazzi, Guillermo Biset, Daniel Gutson, Daniel Rabinovich.",
+      "place": "3CAB 2 C (III Argentine Congress of Bioinformatic and Computational Biology). Oro Verde, Entre Ríos, Argentina."
+    },
+    {
+      "date": "2012",
+      "title": "Distributed Software Development using Design by Contract",
+      "authors": "Franco Riberi",
+      "place": "Convocatoria Vox Populi. Uni Río Editoria. UNRC. ISBN 978-987-688-022-0.2012. Universidad Nacional de Río Cuarto, Córdoba, Argentina."
+    },
+    {
+      "date": "2012",
+      "title": "Implementation of a Compiler C--",
+      "authors": "Franco Riberi",
+      "place": "EST 2012, 41 JAIIO. University of La Plata, La Plata, Argentina."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Master",
+      "keywords": [
+        "bash",
+        "linux",
+        "C++",
+        "C++0x",
+        "java",
+        "JS",
+        "OOP",
+        "gdb",
+        "gtest",
+        "gmock",
+        "JUnit",
+        "vagrind",
+        "python",
+        "django",
+        "html",
+        "git",
+        "mercurial",
+        "svn",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "vagrant",
+        "ansible",
+        "docker",
+        "jenkins",
+        "Jira",
+        "Trello",
+        "teamwork",
+        "SOLID"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Upper Intermedia"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitar",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
