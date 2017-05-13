@@ -3,11 +3,23 @@ import '../styles/App.css';
 
 import Profile from './Profile';
 import About from './About';
+import Work from './Work';
+import Skills from './Skills';
+import Education from './Education';
+import Languages from './Languages';
+import AwardsScholarships from './AwardsScholarships';
+import Publications from './Publications';
 
 const App = props => {
 
   const profileData = props.jsonObj.basics;
   const aboutData = profileData.summary;
+  const workData = props.jsonObj.work;
+  const skillsData = props.jsonObj.skills;
+  const educationData = props.jsonObj.education;
+  const languagesData = props.jsonObj.languages;
+  const awardsScholarshipsData = props.jsonObj.awards;
+  const publicationsData = props.jsonObj.publications;
 
   return (
     <div className="container">      
@@ -16,11 +28,42 @@ const App = props => {
           <div className="inner">
             <Profile profileData={profileData} />
           </div>          
+          <br></br>
+          <div className="inner">
+            <Education educationData={educationData} />
+          </div>
+          <br></br>
+          <div className="inner">
+            <Skills skillsData={skillsData} />
+          </div>
+          <br></br>
+          <div className="inner">
+            <Languages languageData={languagesData} />
+          </div>
+          <br></br>
+          <div className="inner">
+            <section>
+              <h2 className="text-uppercase"><i className="fa fa-users"></i>References</h2>
+              <p><strong>Provided upon request.</strong></p>
+            </section>
+          </div>
         </aside>
         <main className="col-md-8">
           <div className="inner">
             <About aboutData={aboutData}/>
           </div>          
+          <br></br>
+          <div className="inner">
+            <Work workData={workData} />
+          </div>          
+          <br></br>
+          <div className="inner">
+            <Publications publicationsData={publicationsData} />
+          </div>
+          <br></br>
+          <div className="inner">
+            <AwardsScholarships awardsData={awardsScholarshipsData} />
+          </div>
         </main>
       </div>
     </div>
