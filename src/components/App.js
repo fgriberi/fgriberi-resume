@@ -3,11 +3,13 @@ import '../styles/App.css';
 
 import Profile from './Profile';
 import About from './About';
+import Work from './Work';
 
 const App = props => {
 
   const profileData = props.jsonObj.basics;
   const aboutData = profileData.summary;
+  const workData = props.jsonObj.work;  
 
   return (
     <div className="container">      
@@ -20,6 +22,10 @@ const App = props => {
         <main className="col-md-8">
           <div className="inner">
             <About aboutData={aboutData}/>
+          </div>          
+          <br></br>
+          <div className="inner">
+            <Work workData={workData} />
           </div>          
         </main>
       </div>

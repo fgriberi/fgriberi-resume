@@ -1,6 +1,10 @@
 import React from 'react';
 
+/**
+ * Handles profile component
+ */
 const Profile = props => {
+
   const profileObj = props.profileData;
   return (
     <div>
