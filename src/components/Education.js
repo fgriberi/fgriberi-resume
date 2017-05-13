@@ -12,16 +12,17 @@ const Education = props => {
   const getEducation = props.educationData.map(function(item, index) {
 		const startDate = moment(item.startDate).format('MMM, YYYY');
 		const endDate = moment(item.endDate).format('MMM, YYYY');
-	
-  	return (
+
+    return (
       <div key={index}>
         <h3>{item.studyType} {item.area}</h3>
-			  <h4>{item.institution}</h4>
-			  <p>Studied: {startDate} - {endDate}</p>
-        <strong><em>{item.thesis}</em></strong>
-        <p>Supervisors: </p>{item.supervisors}
-			</div>
+        <h4>{item.institution}</h4>
+        <p>Studied: {startDate} - {endDate}</p>
+        {!props.briefVersion && <strong><em>{item.thesis}</em></strong>}
+        {!props.briefVersion && <p>Supervisors: {item.supervisors}</p> }
+      </div>
     )
+
 	});
 
 	return (
@@ -33,3 +34,4 @@ const Education = props => {
 };
 
 export default Education;
+

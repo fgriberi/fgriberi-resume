@@ -12,7 +12,7 @@ const Work = props => {
   const getWorkExperience = () => {
     const workItems = [];
     props.workData.forEach((val, index) => {
-      workItems.push(<WorkItem key={index} workItemData={val}/>);
+      workItems.push(<WorkItem key={index} workItemData={val} briefVersion={props.briefVersion}/>);
     })
     return workItems;
   }

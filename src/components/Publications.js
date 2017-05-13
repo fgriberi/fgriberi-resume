@@ -8,11 +8,16 @@ const Publications = props => {
   /**
    * Gets publication items
    */
+  const briefVersion = props.briefVersion;
+
   const getPublications = props.publicationsData.map(function(item, index) {
-    return (
-      <li key={index}>
-        {item.date} - <strong>{item.title} </strong>, <em> {item.authors} </em>, {item.place}
-      </li>)
+    var liElem = null;
+    if (!briefVersion || (briefVersion && item.relevant === "yes")) {
+      liElem = <li key={index}>
+                {item.date} - <strong>{item.title} </strong>, <em> {item.authors} </em>, {item.place}
+               </li>
+    }
+    return liElem;
   });
 
   return (

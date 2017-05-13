@@ -6,7 +6,10 @@
     "email": "fgriberi@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests, and an organization that lues its employees. I’m a hands-on, highly competent software engineer with more than five years of experience in designing, programming and testing software. I have experience with software development life cycle complemented by a proven ability to quickly assimilate and rapidly utilize new technologies. Over the past years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been C++ and python but I have also worked as a full stack developer as a freelancer. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript. As a professional, I’m always looking for the highest quality in the products that I’m involved. I consider myself avery proactive and dynamic person that enjoys teamwork and challenges.",
+    "summary": {
+      "full" : "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests. I’m a hands-on, highly competent software engineer with more than five years of experience in designing, programming and testing software. I have experience with software development life cycle complemented by a proven ability to quickly assimilate and rapidly utilize new technologies. Over the past years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been C++ and python but I have also worked as a full stack developer as a freelancer. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript. As a professional, I’m always looking for the highest quality in the products that I’m involved. I consider myself a very proactive and dynamic person that enjoys teamwork and challenges.",
+      "brief" : "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests. I consider myself a very proactive and dynamic person that enjoys teamwork and challenges."
+    },
     "location": {
       "address": "Pueyrredon 391",
       "postalCode": "X5804BYA",
@@ -348,25 +351,57 @@
       "date": "2012",
       "title": "Study of the relationship between difference in codon usage compared to the virus and recognition by host microRNA",
       "authors": "Franco Riberi, Lucia Fazzi, Laura Tardivo, Daniel Gutson, Daniel Rabinovich.",
-      "place": "SAV2012 (XXXII Annual Scientific Meeting of the Argentina Society of Virology). Valle Hermoso, Córdoba, Argentina."
+      "place": "SAV2012 (XXXII Annual Scientific Meeting of the Argentina Society of Virology). Valle Hermoso, Córdoba, Argentina.",
+      "relevant": "yes"
     },
     {
       "date": "2012",
       "title": "Relationship between divergence of using synonymous codons in host-virus and the presence of microRNA",
       "authors": "Franco Riberi, Laura Tardivo, Lucia Fazzi, Guillermo Biset, Daniel Gutson, Daniel Rabinovich.",
-      "place": "3CAB 2 C (III Argentine Congress of Bioinformatic and Computational Biology). Oro Verde, Entre Ríos, Argentina."
+      "place": "3CAB 2 C (III Argentine Congress of Bioinformatic and Computational Biology). Oro Verde, Entre Ríos, Argentina.",
+      "relevant": "yes"
     },
     {
       "date": "2012",
       "title": "Distributed Software Development using Design by Contract",
       "authors": "Franco Riberi",
-      "place": "Convocatoria Vox Populi. Uni Río Editoria. UNRC. ISBN 978-987-688-022-0.2012. Universidad Nacional de Río Cuarto, Córdoba, Argentina."
+      "place": "Convocatoria Vox Populi. Uni Río Editoria. UNRC. ISBN 978-987-688-022-0.2012. Universidad Nacional de Río Cuarto, Córdoba, Argentina.",
+      "relevant": "yes"
     },
     {
       "date": "2012",
       "title": "Implementation of a Compiler C--",
       "authors": "Franco Riberi",
-      "place": "EST 2012, 41 JAIIO. University of La Plata, La Plata, Argentina."
+      "place": "EST 2012, 41 JAIIO. University of La Plata, La Plata, Argentina.",
+      "relevant": "yes"
+    },
+    {
+      "date": "2012",
+      "title": "Desarrollo Distribuido de un Juego On-line utilizando Diseño por Contratos",
+      "authors": "Franco Riberi",
+      "place": "EST 2012, 41 JAIIO. Universidad Nacional de La Plata, La Plata, Argentina.",
+      "relevant": "no"
+    },
+    {
+      "date": "2012",
+      "title": "Un Prototipo de Desarrollo NCL para la Plataforma de Televisión Digital.",
+      "authors": "Franco Riberi",
+      "place": "SSI 2012, 41 JAIIO. Universidad Nacional de La Plata, La Plata, Argentina",
+      "relevant": "no"
+    },
+    {
+      "date": "2012",
+      "title": "Desarrollo De Una Aplicación de TV Digital Para Enseñanza. Punto Por Punto Suturas",
+      "authors": "Patricia Bertone, Franco Riberi, Fernán Martineli, Agustí Varea, Carmiña Verde y Marcelo Arroyo",
+      "place": "TE&ET (VII Congreso Tecnología en Educación y Educación en Tecnología. Junín-Pergamino. Buenos Aires. Argentina",
+      "relevant": "no"
+    },
+    {
+      "date": "2011",
+      "title": "Suturas en Medicina Veterinaria: Un Prototipo de Desarrollo NCL para la plataforma de Televisión Digital",
+      "authors": "Fernán G. Martinelli, Franco G. Riberi y Agustín Varea.",
+      "place": "EST 2011. 40 JAIIO. UTN, Córdoba, Argentina.",
+      "relevant": "no"
     }
   ],
   "skills": [
@@ -385,6 +420,7 @@
         "gtest",
         "gmock",
         "JUnit",
+        "RobotFramework",
         "vagrind",
         "python",
         "django",

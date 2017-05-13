@@ -7,7 +7,7 @@ import moment from 'moment';
 const WorkItem = props => {
 
   /**
-   * Gets the work date period 
+   * Gets the work date period
    */
   const getWorkDates = () => {
     const startDate = moment(props.workItemData.startDate).format('MMM, YYYY');
@@ -28,11 +28,13 @@ const WorkItem = props => {
     if (item.link !== "") {
       externalLink = <a href={item.link}><i className="fa fa-external-link"></i></a>;
     }
-    return (
-      <li key={index}>
-        <span className="label label-info">{item.title}</span>  {item.description}  {externalLink}
-      </li>
-    )
+    var liElem = null;
+    if (props.briefVersion) {
+      liElem = <li key={index}><span className="label label-info">{item.title}</span> {externalLink}</li>
+    }else{
+      liElem = <li key={index}><span className="label label-info">{item.title}</span>  {item.description}  {externalLink}</li>
+    }
+    return liElem;
   });
 
   return (
