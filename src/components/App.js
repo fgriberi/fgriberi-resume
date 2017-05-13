@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import ScrollToTop from 'react-scroll-up';
 import '../styles/App.css';
 
 import Profile from './Profile';
@@ -15,6 +16,17 @@ import Interests from './Interests';
 
 const ReactNative = require('react-native');
 const {Button} = ReactNative;
+
+const topScrollStyle = {
+  "zIndex": "1",
+  "position": "fixed",
+  "bottom": "70px",
+  "right": "2px",
+  "cursor": "pointer",
+  "transition": "opacity 0.4s linear 0s visibility",
+  "opacity": "1",
+  "visibility": "visible",
+};
 
 class App extends React.Component {
 
@@ -53,6 +65,7 @@ class App extends React.Component {
     const briefVersion = this.state.brief;
     return (
       <div className="container">
+        <ScrollToTop showUnder={160} style={topScrollStyle}><i className="fa fa-arrow-circle-up fa-3x"></i></ScrollToTop>
         <div className="row">
           <aside className="col-md-4">
             <div className="inner">

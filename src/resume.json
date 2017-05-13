@@ -195,6 +195,11 @@
   ],
   "courses": [
     {
+      "date": "2017",
+      "title": "Desarrollo Ágil de Software",
+      "info": "Juan Gabardini, Kleer, Córdoba."
+    },
+    {
       "date": "2016",
       "title": "Aprendizaje automático en visión por computadoras",
       "info": "Prof. Enc. Dr. Jorge A. Sanchéz, UNC, Córdoba. 120h."

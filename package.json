@@ -22,6 +22,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-native-web": "0.0.94",
+    "react-scroll-up": "^1.3.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8"
