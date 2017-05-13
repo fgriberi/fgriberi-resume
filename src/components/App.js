@@ -10,6 +10,7 @@ import Languages from './Languages';
 import AwardsScholarships from './AwardsScholarships';
 import Publications from './Publications';
 import Courses from './Courses';
+import OtherInfo from './OtherInfo';
 
 const App = props => {
 
@@ -22,6 +23,7 @@ const App = props => {
   const awardsScholarshipsData = props.jsonObj.awards;
   const publicationsData = props.jsonObj.publications;
   const coursesData = props.jsonObj.courses;
+  const otherData = props.jsonObj.others;
 
   return (
     <div className="container">
@@ -45,6 +47,10 @@ const App = props => {
           <br></br>
           <div className="inner">
             <AwardsScholarships awardsData={awardsScholarshipsData} />
+          </div>
+          <br></br>
+          <div className="inner">
+            <OtherInfo otherData={otherData}/>
           </div>
           <br></br>
           <div className="inner">
