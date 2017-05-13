@@ -452,10 +452,12 @@
     }
   ],
   "interests": [
-    {
-      "name": "Guitar",
-      "keywords": []
-    }
+      "meetups",
+      "technologies",
+      "industry",
+      "software development",
+      "trekking",
+      "trips"
   ],
   "references": []
 }
