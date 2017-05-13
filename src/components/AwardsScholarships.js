@@ -12,7 +12,8 @@ const AwardsScholarships = props => {
     return (
       <li key={index}>
         <strong>{item.title} </strong> - <emph> {item.institution} </emph> - {item.period}
-      </li>)
+      </li>
+    );
   });
 
   return (
@@ -22,7 +23,7 @@ const AwardsScholarships = props => {
           <ul>{getAwards}</ul>
         </div>
     </section>
-  )
+  );
 };
 
 export default AwardsScholarships;

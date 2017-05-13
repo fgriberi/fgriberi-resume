@@ -21,7 +21,7 @@ const Education = props => {
         {!props.briefVersion && <strong><em>{item.thesis}</em></strong>}
         {!props.briefVersion && <p>Supervisors: {item.supervisors}</p> }
       </div>
-    )
+    );
 
 	});
 
@@ -30,7 +30,7 @@ const Education = props => {
       <h2 className="text-uppercase"><i className="fa fa-lg fa-mortar-board"></i> Education</h2>
       {getEducation}
     </section>
-	)
+	);
 };
 
 export default Education;

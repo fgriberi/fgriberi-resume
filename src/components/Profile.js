@@ -25,7 +25,7 @@ const Profile = props => {
       <div className="divider"></div>
       <p><em>“Science is what we understand well enough to explain to a computer. Art is everything else we do.”</em> – <strong>Donald Knuth</strong></p>
     </div>
-  )
+  );
 };
 
 export default Profile;

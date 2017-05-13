@@ -13,7 +13,7 @@ const OtherInfo = props => {
       <li key={index}>
         <strong>{item.title} </strong> <em> {item.description} </em>
       </li>
-    )
+    );
   });
 
   return (
@@ -23,7 +23,7 @@ const OtherInfo = props => {
           <ul>{getData}</ul>
         </div>
     </section>
-  )
+  );
 };
 
 export default OtherInfo;

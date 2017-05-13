@@ -12,7 +12,8 @@ const Interests = props => {
       return (
       	<li key={index}>
       		<span className="label label-info">{item}</span>
-      	</li>)
+      	</li>
+      );
     });
 
     return (
@@ -22,7 +23,7 @@ const Interests = props => {
         </h2>
         <ul className="skills-list list-inline">{getItems}</ul>
       </section>
-    )
+    );
 };
 
 export default Interests;

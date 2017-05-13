@@ -12,10 +12,10 @@ const Publications = props => {
 
   const getPublications = props.publicationsData.map(function(item, index) {
     var liElem = null;
-    if (!briefVersion || (briefVersion && item.relevant === "yes")) {
+    if (!briefVersion || (briefVersion && item.relevant === 'yes')) {
       liElem = <li key={index}>
                 {item.date} - <strong>{item.title} </strong>, <em> {item.authors} </em>, {item.place}
-               </li>
+               </li>;
     }
     return liElem;
   });
@@ -27,7 +27,7 @@ const Publications = props => {
           <ul>{getPublications}</ul>
         </div>
     </section>
-  )
+  );
 };
 
 export default Publications;

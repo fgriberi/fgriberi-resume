@@ -13,9 +13,9 @@ const Work = props => {
     const workItems = [];
     props.workData.forEach((val, index) => {
       workItems.push(<WorkItem key={index} workItemData={val} briefVersion={props.briefVersion}/>);
-    })
+    });
     return workItems;
-  }
+  };
 
   return (
     <section className="work">

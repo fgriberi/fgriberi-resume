@@ -12,7 +12,7 @@ const Languages = props => {
     return (
       <li key={index}>
         <strong>{item.language} - </strong>{item.fluency}
-      </li>)
+      </li>);
   });
 
   return (
@@ -22,7 +22,7 @@ const Languages = props => {
           <ul>{getLanguages}</ul>
         </div>
     </section>
-  )
+  );
 };
 
 export default Languages;

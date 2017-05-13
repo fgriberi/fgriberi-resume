@@ -1,0 +1,47 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  globals: {
+    app: true,
+    expect: true,
+    request: true,
+    by: true,
+    element: true,
+    browser: true,
+    jasmine: true,
+    inject: true,
+    angular: true,
+    ApplicationConfiguration: true,
+    io: true,
+    $: true,
+  },
+  "rules": {
+    "semi" : [2, "always"],
+    "quotes": [2, "single"],
+    "eqeqeq": [2, "smart"],
+    "keyword-spacing": 2,
+    "no-console": 1,
+    "no-param-reassign": [2, {"props": false}],
+    "func-names": 0,
+    "one-var": 0,
+    "new-cap": 0,
+    "quote-props": 0,
+    "prefer-template": 0,
+    "arrow-body-style": 0,
+    "no-empty-label": 0,
+    "no-labels": 2,
+    "no-use-before-define": [2, { "functions": false, "classes": true }]
+  }
+}

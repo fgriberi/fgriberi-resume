@@ -17,22 +17,22 @@ const WorkItem = props => {
     } else {
       endDate = 'Present';
     }
-    return <span className='startdate'>{startDate} - {endDate}</span>
-  }
+    return <span className='startdate'>{startDate} - {endDate}</span>;
+  };
 
   /**
    * Gets projects involved
    */
   const getHighlightProjects = props.workItemData.highlights.map(function(item, index) {
-    var externalLink = "";
-    if (item.link !== "") {
+    var externalLink = '';
+    if (item.link !== '') {
       externalLink = <a href={item.link}><i className="fa fa-external-link"></i></a>;
     }
     var liElem = null;
     if (props.briefVersion) {
-      liElem = <li key={index}><span className="label label-info">{item.title}</span> {externalLink}</li>
-    }else{
-      liElem = <li key={index}><span className="label label-info">{item.title}</span>  {item.description}  {externalLink}</li>
+      liElem = <li key={index}><span className="label label-info">{item.title}</span> {externalLink}</li>;
+    } else {
+      liElem = <li key={index}><span className="label label-info">{item.title}</span>  {item.description}  {externalLink}</li>;
     }
     return liElem;
   });
@@ -46,7 +46,7 @@ const WorkItem = props => {
       <p>{props.workItemData.summary}</p>
       <ul>{getHighlightProjects}</ul>
     </div>
-  )
+  );
 };
 
 export default WorkItem;

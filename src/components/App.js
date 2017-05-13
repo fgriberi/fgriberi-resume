@@ -18,14 +18,14 @@ const ReactNative = require('react-native');
 const {Button} = ReactNative;
 
 const topScrollStyle = {
-  "zIndex": "1",
-  "position": "fixed",
-  "bottom": "70px",
-  "right": "2px",
-  "cursor": "pointer",
-  "transition": "opacity 0.4s linear 0s visibility",
-  "opacity": "1",
-  "visibility": "visible",
+  'zIndex': '1',
+  'position': 'fixed',
+  'bottom': '70px',
+  'right': '2px',
+  'cursor': 'pointer',
+  'transition': 'opacity 0.4s linear 0s visibility',
+  'opacity': '1',
+  'visibility': 'visible'
 };
 
 class App extends React.Component {
@@ -46,7 +46,7 @@ class App extends React.Component {
     this.coursesData = props.jsonObj.courses;
     this.otherData = props.jsonObj.others;
     this.interestData = props.jsonObj.interests;
-    this.state = {brief: true, button: "Full Version"};
+    this.state = {brief: true, button: 'Full Version'};
     this.toggleResumeVersion = this.toggleResumeVersion.bind(this);
   }
 
@@ -57,7 +57,7 @@ class App extends React.Component {
     const { brief } = this.state;
     this.setState({
       brief: !brief,
-      button: !brief ? "Full version" : "Brief Version"
+      button: !brief ? 'Full version' : 'Brief Version'
     });
   }
 
@@ -127,12 +127,12 @@ class App extends React.Component {
           </main>
         </div>
       </div>
-    )
+    );
   }
 };
 
 App.propTypes = {
     jsonObj: PropTypes.object.isRequired
-}
+};
 
 export default App;

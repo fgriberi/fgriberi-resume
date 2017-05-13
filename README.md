@@ -1,6 +1,6 @@
 # Personal Resume with React
 
-This repository contains the code that is used to create my resume https://fgriberi-resume.herokuapp.com. 
+This repository contains the code that is used to create my resume https://fgriberi-resume.herokuapp.com.
 The project was bootstrapped with Facebook's boilerplate [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Prerequisites
@@ -16,12 +16,12 @@ Make sure you have installed all of the following prerequisites on your developm
 
 ```bash
 npm install
-``` 
+```
 
 3. Runs the app in the development mode
 ```bash
 npm start
-``` 
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

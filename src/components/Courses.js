@@ -12,7 +12,8 @@ const Courses = props => {
     return (
       <li key={index}>
         {item.date} - <strong>{item.title} </strong> <em> {item.authors} </em>, {item.info}
-      </li>)
+      </li>
+    );
   });
 
   return (
@@ -22,7 +23,7 @@ const Courses = props => {
           <ul>{getCourses}</ul>
         </div>
     </section>
-  )
+  );
 };
 
 export default Courses;
