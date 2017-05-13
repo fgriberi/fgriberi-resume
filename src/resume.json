@@ -190,6 +190,118 @@
       "highlights": []
     }
   ],
+  "courses": [
+    {
+      "date": "2016",
+      "title": "Aprendizaje automático en visión por computadoras",
+      "info": "Prof. Enc. Dr. Jorge A. Sanchéz, UNC, Córdoba. 120h."
+    },
+    {
+      "date": "2016",
+      "title": "Métodos Actuales en Machine Learning",
+      "info": "Dr. Pablo Granito y Dr. Lucas Uzal, UNRC, Río Cuarto, Córdoba. 15-20 de febrero de 2016"
+    },
+    {
+      "date": "2015",
+      "title": "Python como herramienta para la ingeniería",
+      "info": "Ing. Martin Gaitan, UNC, Córdoba."
+    },
+    {
+      "date": "2013",
+      "title": "Técnicas avanzadas para testing automático.",
+      "info": "Dr. Marcelo Frias, UNRC, Río Cuarto, Córdoba. 18-23 de febrero de 2013."
+    },
+    {
+      "date": "2013",
+      "title": "Introducción a la computación heterogenea.",
+      "info": "Dr. Nicolás Wolovick y Lic. Carlos Bederián, UNRC, Río Cuarto, Córdoba. 18-23 de febrero de 2013."
+    },
+    {
+      "date": "2012",
+      "title": "Ingles Primer Nivel. Módulo A.",
+      "info": "Prof. Agustina Fraschetti, UNRC, Río Cuarto, Córdoba. Primer cuatrimestre 2012."
+    },
+    {
+      "date": "2012",
+      "title": "Metodología para el desarrollo de sistemas seguros",
+      "info": "Mg. Eduardo Casanovas y otros, UNRC, Río Cuarto, Córdoba. 13-18 de febrero de 2012."
+    },
+    {
+      "date": "2012",
+      "title": "Programación Paralela usando GPUs.",
+      "info": "Dra. María Fabiana Piccoli, UNRC, Río Cuarto, Córdoba. 13-18 de febrero de 2012."
+    },
+    {
+      "date": "2012",
+      "title": "Mobile Programming with TouchDevelop for Windows Phone.",
+      "info": "Dr. Nokolai Tillmann (Microsoft Research), UNRC, Río Cuarto, Córdoba. 13-18 de febrero"
+    },
+    {
+      "date": "2011",
+      "title": "“P.E.V.” (Programa de Entrenamiento de Voluntarios).",
+      "info": "Ing. Gustavo Domingo Yagüez, FuDePAN, Córdoba. 11/08/2011 - 25/10/2011"
+    },
+    {
+      "date": "2011",
+      "title": "Curso acelerado de Inglés General.",
+      "info": "Prof. Lic. Natalia Manchado, English Language Institute (ELI), Río Cuarto, Córdoba. Diciembre 2011."
+    },
+    {
+      "date": "2011",
+      "title": "Introducción a las Aplicaciones Industriales del Procesamiento Digital de Datos.",
+      "info": "Dr. Diego Romero, UBA, Buenos Aires. 25-30 de julio de 2011"
+    },
+    {
+      "date": "2011",
+      "title": "Aprendizaje Automático usando Kernel Machines: Teoría y Aplicaciones.",
+      "info": "Dr. Stéphane Canu, UBA, Buenos Aires. 25-30 de julio de 2011"
+    },
+    {
+      "date": "2011",
+      "title": "Introduction to Mobile Robotics.",
+      "info": "Dr. Miroslav Kulich, UBA, Buenos Aires. 25-30 de julio de 2011"
+    },
+    {
+      "date": "2011",
+      "title": "Fundamentos y principios básicos de ingeniería de software para la gestión de proyectos.",
+      "info": "Ing. Álvaro Ruiz de Mendarozqueta, UNRC, Río Cuarto, Córdoba. 14-19 de Febrero de 2011."
+    },
+    {
+      "date": "2011",
+      "title": "Desarrollo de Aplicaciones NCL para televisión digital.",
+      "info": "Dr. Federico Balaguer, Lic. Leonardo Isasmendi, UNRC, Río Cuarto, Córdoba. 14-19 de Febrero de 2011."
+    },
+    {
+      "date": "2011",
+      "title": "Análisis Automático de Programas: De la teoría a la práctica.",
+      "info": "Dr. Diego Garbervetsky, Lic. Guido de Caso, UNRC, Río Cuarto, Córdoba. 14-19 de Febrero de 2011."
+    },
+    {
+      "date": "2010",
+      "title": "El testing como parte del proceso de calidad del software.",
+      "info": "INTI, UNRC, Río Cuarto, Córdoba. 30 de noviembre al 02 de diciembre de 2010"
+    },
+    {
+      "date": "2010",
+      "title": "Aprendizaje por Refuerzos: Teoría y Aplicaciones en Robótica, Psicología y Neurociencias.",
+      "info": "Carlos Diuk, UBA, Buenos Aires. Julio de 2010."
+    },
+    {
+      "date": "2010",
+      "title": "Verificación Funcional de Sistemas Digitales Basada en Aserciones.",
+      "info": "Elías Todorovich, UBA, Buenos Aires. Julio de 2010."
+    },
+    {
+      "date": "2010",
+      "title": "Testing de software con métodos formales.",
+      "info": "Dra. Laura Brandan Briones, UNRC, Río Cuarto, Córdoba. 15-20 de febrero de 2010."
+    },
+    {
+      "date": "2010",
+      "title": "Modelado y simulación de sistemas dinámicos con el formalismo devs.",
+      "info": "Dr. Ernesto Kofman, UNRC, Río Cuarto, Córdoba. 15-20 de febrero de 2010."
+    }
+  ],
   "volunteer": [],
   "education": [
     {

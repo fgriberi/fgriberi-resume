@@ -9,6 +9,7 @@ import Education from './Education';
 import Languages from './Languages';
 import AwardsScholarships from './AwardsScholarships';
 import Publications from './Publications';
+import Courses from './Courses';
 
 const App = props => {
 
@@ -20,14 +21,15 @@ const App = props => {
   const languagesData = props.jsonObj.languages;
   const awardsScholarshipsData = props.jsonObj.awards;
   const publicationsData = props.jsonObj.publications;
+  const coursesData = props.jsonObj.courses;
 
   return (
-    <div className="container">      
+    <div className="container">
       <div className="row">
         <aside className="col-md-4">
           <div className="inner">
             <Profile profileData={profileData} />
-          </div>          
+          </div>
           <br></br>
           <div className="inner">
             <Education educationData={educationData} />
@@ -42,6 +44,10 @@ const App = props => {
           </div>
           <br></br>
           <div className="inner">
+            <AwardsScholarships awardsData={awardsScholarshipsData} />
+          </div>
+          <br></br>
+          <div className="inner">
             <section>
               <h2 className="text-uppercase"><i className="fa fa-users"></i>References</h2>
               <p><strong>Provided upon request.</strong></p>
@@ -51,18 +57,18 @@ const App = props => {
         <main className="col-md-8">
           <div className="inner">
             <About aboutData={aboutData}/>
-          </div>          
+          </div>
           <br></br>
           <div className="inner">
             <Work workData={workData} />
-          </div>          
+          </div>
           <br></br>
           <div className="inner">
             <Publications publicationsData={publicationsData} />
           </div>
           <br></br>
           <div className="inner">
-            <AwardsScholarships awardsData={awardsScholarshipsData} />
+            <Courses coursesData={coursesData}/>
           </div>
         </main>
       </div>
