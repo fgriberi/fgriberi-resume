@@ -4,6 +4,7 @@ import App from './components/App';
 
 global.jQuery = require('jquery');
 require('bootstrap-loader');
+require('font-awesome-webpack-sass');
 
 const json = require('./resume.json');
 
