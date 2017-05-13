@@ -7,7 +7,7 @@ The project was bootstrapped with Facebook's boilerplate [Create React App](http
 Make sure you have installed all of the following prerequisites on your development machine:
 
 * Git - [Download & Install Git](https://git-scm.com/downloads).
-* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. (See package.json engines tag)
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. (node 7.x and npm 4.5.0)
 
 ## Getting up and running
 
