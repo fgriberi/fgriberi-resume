@@ -25,6 +25,13 @@ npm start
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Coding Style
+You can configure it in the .eslintrc file.
+
+```bash
+npm run lint
+```
+
 ## Build on [Heroku](https://www.heroku.com/home)
 ### Requires
 * [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
