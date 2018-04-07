@@ -7,13 +7,13 @@
     "phone": "",
     "website": "",
     "summary": {
-      "full" : "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests. I’m a hands-on, highly competent software engineer with more than five years of experience in designing, programming and testing software. I have experience with software development life cycle complemented by a proven ability to quickly assimilate and rapidly utilize new technologies. Over the past years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been C++ and python but I have also worked as a full stack developer as a freelancer. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript. As a professional, I’m always looking for the highest quality in the products that I’m involved. I consider myself a very proactive and dynamic person that enjoys teamwork and challenges.",
+      "full" : "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests. I’m a hands-on, highly competent software engineer with more than five years of experience in designing, programming and testing software. I have experience with software development lifecycle complemented by a proven ability to quickly assimilate and rapidly utilize new technologies. Over the past years, I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been C++ and python but I have also worked as a full stack developer as a freelancer. I have a very strong interest in full stack javascript development and have recently been experimenting with Meteor and React as well as Typescript. As a professional, I’m always looking for the highest quality of the products that I’m involved. I consider myself a very proactive and dynamic person that enjoys teamwork and challenges.",
       "brief" : "Hi, I’m Franco Riberi. I’m passionate about what I do. Nothing is more fulfilling than being part of a team with similar interests. I consider myself a very proactive and dynamic person that enjoys teamwork and challenges."
     },
     "location": {
-      "address": "Pueyrredon 391",
-      "postalCode": "X5804BYA",
-      "city": "Cordoba",
+      "address": "Intendente Froute 131",
+      "postalCode": "5923",
+      "city": "General Deheza",
       "countryCode": "Arg",
       "region": "Cordoba"
     },
@@ -37,16 +37,31 @@
   },
   "work": [
     {
-      "company": "Ascentio Technologies SA",
-      "position": "Python and C++ developer",
-      "website": "https://www.ascentio.com.ar",
-      "startDate": "2015-04-13",
+      "company": "Onapsis SRL",
+      "position": "Remote Python developer",
+      "website": "https://www.onapsis.com",
+      "startDate": "2018-03-05",
       "endDate": "",
       "summary": "",
       "highlights": [
         {
-          "title": "Detection of Maritime Anomalies",
-          "description": "I’m responsible for the analysis, design, development and testing of the project. I have started with the requirement analysis and prototyping in python. Next steps include the development in C++. Activities include: architecture and design of all the system, project planning, analysis application, development and technical coordination of the team. Technologies: waf, python, numpy, scipy, h5py, gdal, pytest, mock, pep8, pylint, C++, C++11, opencv, gtest, valgrind, lcov, gdb, cppcheck.",
+          "title": "Onapsis Security Platform",
+          "description": "Currently, I'm working into the Onapsis Security Platform product as a backend developer. Technologies: python3, celery, pyramid, SQLAlchemy, rabbitMQ, Redis, postgres, git, attlasian suite, docker.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "company": "Ascentio Technologies SA",
+      "position": "Python and C++ developer",
+      "website": "https://www.ascentio.com.ar",
+      "startDate": "2015-04-13",
+      "endDate": "2018-02-28",
+      "summary": "",
+      "highlights": [
+        {
+          "title": "Galatea Watcher",
+          "description": "I have been responsible for analysis, design, development, and testing of the project. I have started with the requirement analysis and prototyping in Python. Next steps include the development in C++. Activities include: architecture and design of the all system, project planning, application analysis, development and technical coordinator of the team. Technologies: waf, python, numpy, scipy, h5py, gdal, pytest, mock, pep8, pylint, C++, C++11, opencv, gtest, valgrind, lcov, gdb, cppcheck, vagrant, ansible, docker, fabric.",
           "link": ""
         },
         {
@@ -85,12 +100,12 @@
         },
         {
           "title": "Sivasdescalzo",
-          "description": "I worked in this project for Koodu Software as a developer. I integrated this application with MRW platform using web services. Technologies: java, openbravo ERP, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
+          "description": "I worked on this project for Koodu Software as a developer. I integrated this application with MRW platform using web services. Technologies: java, openbravo ERP, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
           "link": "http://www.sivasdescalzo.es/"
         },
         {
           "title": "Retails POS",
-          "description": "I worked in this project for Koodu Software as a developer. I fixed some issues and bugs. Technologies: java, javascript, openbravo, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
+          "description": "I worked on this project for Koodu Software as a developer. I fixed some issues and bugs. Technologies: java, javascript, openbravo, bitbucket and mercurial. Referece: salvador.zapata@gmail.com",
           "link": ""
         },
         {
